@@ -210,8 +210,7 @@ Score calculado com base em:
 
 ---
 
-### 4.4 Autoaprovação Inteligente
-
+### 4.4 Autoaprovação Inteligente - OK
 Autoaprovação ocorre quando:
 
 - Score abaixo do threshold
