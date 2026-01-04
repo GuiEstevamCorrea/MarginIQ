@@ -78,7 +78,7 @@ Representa o cliente do SaaS.
 
 ---
 
-### 3.2 Usuário
+### 3.2 Usuário - OK
 
 - **Id**
 - **Nome**
@@ -92,7 +92,7 @@ Representa o cliente do SaaS.
 
 ---
 
-### 3.3 Cliente
+### 3.3 Cliente - OK
 
 - **Id**
 - **Nome**
