@@ -1,14 +1,15 @@
 <Solution>
-  <Folder Name="/Api/">
+  <Folder Name="/Src/" />
+  <Folder Name="/Src/Api/">
     <Project Path="Api/Api.csproj" Id="3f66d245-c5a2-4961-ab62-920792cf76d5" />
   </Folder>
-  <Folder Name="/Application/">
+  <Folder Name="/Src/Application/">
     <Project Path="Application/Application.csproj" Id="7cc19282-0a3f-4b48-9159-fb6cbec42fd3" />
   </Folder>
-  <Folder Name="/Domain/">
+  <Folder Name="/Src/Domain/">
     <Project Path="Domain/Domain.csproj" Id="2689320d-8d8a-455d-8413-37eb7de6c980" />
   </Folder>
-  <Folder Name="/Infrastructure/">
+  <Folder Name="/Src/Infrastructure/">
     <Project Path="Infrastructure/Infrastructure.csproj" Id="e7c9f493-210b-4cd6-937c-084d4d36282b" />
   </Folder>
 </Solution>
