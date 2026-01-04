@@ -1,0 +1,291 @@
+Documentação Técnica – Módulo de IA
+
+Projeto: Sistema Inteligente de Aprovação de Descontos
+
+1. Papel da IA no Produto
+
+A IA atua como motor de apoio à decisão, responsável por:
+
+Recomendar desconto ideal
+
+Calcular score de risco da negociação
+
+Explicar a recomendação (explicabilidade)
+
+Aprender com decisões humanas e resultado real
+
+⚠️ A IA não decide sozinha por padrão
+Ela opera dentro de guardrails definidos pelo negócio.
+
+2. Arquitetura da IA (Hexagonal)
+
+A IA é um adapter externo, acessado via port.
+
+Application (Use Case)
+   └── IDiscountIntelligencePort
+           └── DiscountIAAdapter
+                   ├── Feature Store
+                   ├── Model
+                   └── Explanation Engine
+
+Princípios
+
+IA nunca acessa diretamente o banco transacional
+
+Dados entram por DTOs
+
+Fallback sempre disponível (regras fixas)
+
+3. Feature Store (Base de Aprendizado)
+3.1 Objetivo
+
+Centralizar dados normalizados e históricos para:
+
+treinamento
+
+inferência
+
+auditoria
+
+Não usar tabelas transacionais diretamente.
+
+3.2 Entidade: FeatureNegotiation
+
+Cada linha representa uma negociação histórica.
+
+Campos principais
+Campo	Tipo	Observação
+negotiation_id	UUID	Referência
+company_id	UUID	Isolamento por tenant
+client_id	UUID	
+product_category	string	Melhor que SKU no início
+deal_value	decimal	Valor total
+discount_percent	decimal	% concedido
+margin_estimated	decimal	No momento da decisão
+decision	enum	approved / rejected / auto
+approved_by	enum	human / ia
+risk_score	int	0–100
+deal_result	enum	won / lost / unknown
+created_at	datetime	
+3.3 Features Derivadas (calculadas)
+
+Essas não vêm do banco, são calculadas no adapter:
+
+Feature	Descrição
+avg_discount_client	Média histórica do cliente
+avg_discount_segment	Média do segmento
+win_rate_client	Taxa de fechamento
+discount_vs_avg	Desvio do desconto
+margin_vs_avg	Desvio da margem
+seller_discount_pattern	Tendência do vendedor
+
+Essas features são versionadas.
+
+3.4 Persistência
+
+Banco separado ou schema separado
+
+Nunca alterar histórico (append-only)
+
+Pode usar:
+
+PostgreSQL
+
+BigQuery (futuro)
+
+Feature flags para evolução
+
+4. Modelo Inicial (MVP)
+4.1 Estratégia
+
+❌ Nada de deep learning no início
+✅ Modelo híbrido: regras + estatística
+
+Motivo:
+
+Pouco dado inicial
+
+Mais explicável
+
+Mais confiável para CFO / gestor
+
+4.2 Tipo de Modelo
+Fase 1 – Estatístico
+
+Regressão simples ou heurística ponderada
+
+Clusterização leve por cliente/segmento
+
+Exemplo de score:
+
+score = 
+  w1 * desvio_desconto +
+  w2 * desvio_margem +
+  w3 * histórico_cliente +
+  w4 * padrão_vendedor
+
+
+Pesos configuráveis por empresa.
+
+4.3 Output do Modelo
+{
+  "recommendedDiscount": 12.5,
+  "expectedMargin": 28.3,
+  "riskScore": 34,
+  "confidence": 0.81
+}
+
+5. Explicabilidade (Obrigatório)
+
+A explicação não vem do modelo, vem de uma camada de interpretação.
+
+5.1 Engine de Explicação
+
+Baseada em regras simples:
+
+Exemplos:
+
+“Desconto está 5% acima da média histórica deste cliente”
+
+“Margem final está dentro do padrão do segmento”
+
+“Vendedor costuma conceder descontos acima da média”
+
+5.2 Estrutura
+{
+  "summary": "Desconto recomendado com baixo risco",
+  "reasons": [
+    "Cliente aceita descontos médios de 10–15%",
+    "Margem permanece acima do mínimo",
+    "Histórico de fechamento positivo"
+  ]
+}
+
+6. Casos de Uso da IA
+IA-UC-01 – Recomendar Desconto
+
+Input
+
+{
+  "companyId": "...",
+  "clientId": "...",
+  "products": [...],
+  "dealValue": 100000,
+  "requestedDiscount": 18
+}
+
+
+Processo
+
+Carregar features históricas
+
+Calcular features derivadas
+
+Executar modelo
+
+Gerar explicação
+
+IA-UC-02 – Calcular Score de Risco
+
+Score entre 0–100
+
+Faixa	Interpretação
+0–30	Baixo risco
+31–60	Médio risco
+61–100	Alto risco
+IA-UC-03 – Aprender com Feedback
+
+Disparado quando:
+
+Gestor aprova/reprova
+
+Negócio fecha ou é perdido
+
+Processo:
+
+Persistir novo registro no feature store
+
+Marcar para reprocessamento
+
+Ajustar pesos periodicamente
+
+7. Ciclo de Treinamento
+7.1 Frequência
+
+MVP: batch diário ou semanal
+
+Nunca em tempo real
+
+7.2 Versionamento
+
+Versão do modelo registrada
+
+Cada decisão guarda:
+
+model_version
+
+feature_version
+
+8. Governança e Segurança
+8.1 Controles
+
+Ligar/desligar IA por empresa
+
+Definir nível de autonomia
+
+Limitar % de autoaprovação
+
+8.2 Auditoria
+
+Cada decisão da IA grava:
+
+Input
+
+Output
+
+Explicação
+
+Versão do modelo
+
+9. Fallback (Regra de Ouro)
+
+Se IA:
+
+falhar
+
+ultrapassar timeout
+
+estiver desativada
+
+➡️ sistema usa motor de regras fixas.
+
+10. Roadmap Evolutivo da IA
+Fase 1 (MVP)
+
+Estatística + regras
+
+Explicabilidade simples
+
+Fase 2
+
+Gradient Boosting
+
+Segmentação automática
+
+Fase 3
+
+Aprendizado por resultado financeiro
+
+Simulações de margem
+
+🔥 Resumo para o Dev
+
+IA ≠ domínio
+
+Feature store é ativo estratégico
+
+Comece simples
+
+Explique sempre
+
+Governe tudo

@@ -1,0 +1,242 @@
+Produto: MarginIQ
+Camada de Inteligência e Proteção de Margem para Times Comerciais B2B
+1️⃣ Nicho e dor hiper específicos (onde atacar primeiro)
+🎯 Nichos prioritários (fase 1)
+
+Escolher só 1–2 para começar (isso é crítico):
+
+🥇 Distribuidores industriais B2B
+
+muitos SKUs
+
+margem apertada
+
+vendedor no telefone/WhatsApp
+
+desconto vira “arma” para fechar negócio
+
+🥈 Fabricantes com força de vendas própria
+
+política de preço complexa
+
+exceções frequentes
+
+diretor comercial como gargalo
+
+Não começar com SaaS B2B puro ou varejo.
+Indústria sofre mais, sente mais e paga mais.
+
+💣 Dor real (linguagem do cliente)
+
+O MarginIQ nasce para resolver essas frases:
+
+“Estamos perdendo margem e não sabemos onde”
+
+“Todo desconto vira exceção”
+
+“O aprovador trava o comercial”
+
+“O vendedor dá 30% para não perder o pedido”
+
+“Não tenho critério, só feeling”
+
+👉 Isso vira tela, regra e relatório, não slide bonito.
+
+2️⃣ Produto enxuto com foco em resultado (não em features)
+🔩 Core do produto (MVP real)
+
+O produto não é ERP, não é CRM, não é CPQ.
+
+É uma camada entre vendedor e decisão final.
+
+CORE = 3 coisas muito bem feitas
+1️⃣ Matriz de desconto (governança)
+
+limites por:
+
+produto / grupo
+
+cliente / segmento
+
+perfil de vendedor
+
+margens mínimas explícitas
+
+regras simples, visíveis e auditáveis
+
+2️⃣ Fluxo de aprovação em tiers
+
+Exemplo real:
+
+até 10% → autoaprovado
+
+10–20% → gestor
+
+acima de 20% → diretor
+
+Nada de BPM complexo.
+Só o que o cliente já faz hoje, mas organizado.
+
+3️⃣ Autoaprovação com guardrails
+
+se respeitar regra + histórico → IA aprova
+
+se fugir do padrão → humano decide
+
+👉 Resultado:
+
+menos gargalo
+
+menos exceção
+
+mais previsibilidade
+
+3️⃣ IA pragmática (sem hype, mas com diferencial real)
+🤖 Como a IA entra (40–50% do valor)
+
+Fase 1 — IA “pé no chão”
+
+estatística + histórico
+
+win rate por cliente / segmento
+
+margem média histórica
+
+comportamento do vendedor
+
+Entrega:
+
+desconto recomendado
+
+score de risco
+
+explicação simples
+
+“Esse cliente fecha em média com 12%”
+“Esse desconto está 18% acima do padrão”
+
+🚀 Fase 2 — IA mais sofisticada
+
+Quando a base cresce:
+
+clusterização de clientes
+
+ajuste dinâmico de limites
+
+recomendação baseada em outcome (fechou ou não)
+
+👉 A IA evolui junto com o MRR, não antes.
+
+4️⃣ Diferenciação em UX e time-to-value (PLG real)
+⚡ Onboarding em dias, não meses
+
+Setup inicial:
+
+import de regras por planilha
+
+import de histórico mínimo
+
+cadastro simples de usuários
+
+Sem projeto de 6 meses.
+Sem consultoria pesada.
+
+📊 Quick wins visíveis (isso vende sozinho)
+
+Dashboard inicial (primeiro mês):
+
+💰 Margem “salva” vs cenário anterior
+
+⏱️ Tempo médio de aprovação antes vs depois
+
+🤖 % de decisões autoaprovadas
+
+📉 Exceções reduzidas
+
+👉 Isso vira:
+
+argumento para renovação
+
+upsell
+
+expansão de usuários
+
+5️⃣ Brasil-first (onde muitos SaaS erram)
+🔌 Integrações prioritárias
+
+planilha (entrada rápida)
+
+TOTVS
+
+SAP (futuro)
+
+CRM local
+
+O MarginIQ não substitui nada.
+Ele governa o que já existe.
+
+💳 Billing adaptado ao Brasil
+
+boleto
+
+PIX recorrente
+
+contrato anual simples
+
+Isso aumenta conversão no B2B nacional.
+
+6️⃣ Modelo de preço orientado a valor (não a feature)
+💰 Como cobrar (exemplo)
+
+Preço não é por “plano bonito”, é por impacto.
+
+Estrutura:
+
+base por usuário
+
+faixa de volume de negociações
+
+Exemplo:
+
+até R$ 5M/mês em negociações → plano X
+
+até R$ 20M/mês → plano Y
+
+Mensagem clara:
+
+“Você paga uma fração do que protege de margem.”
+
+🎯 Posicionamento final (o mais importante)
+❌ O que NÃO somos
+
+mais um sistema para vendedor
+
+mais um módulo de CRM
+
+mais um workflow burocrático
+
+✅ O que SOMOS
+
+Uma camada de inteligência e proteção de margem sobre o processo comercial.
+
+Narrativa para CFO / Diretoria
+
+desconto = custo de capital
+
+cada 1% errado custa milhões no ano
+
+governança + IA = lucro recorrente
+
+🔥 Por que esse produto tem diferencial real
+
+dor clara e urgente
+
+ROI rápido e mensurável
+
+IA aplicada onde dói (dinheiro)
+
+implantação leve
+
+discurso alinhado com decisor financeiro
+
+👉 Isso não é ideia bonita. É produto vendável.

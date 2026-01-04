@@ -1,0 +1,169 @@
+📊 Projeto Comercial – Resumo Executivo para Sócios
+🎯 A Dor Real que Estamos Atacando
+
+Na indústria B2B, o maior gargalo comercial não é vender — é vender bem.
+
+Hoje, a realidade da área comercial industrial é:
+
+Desconto dado “no feeling”
+
+Margem sacrificada sem visibilidade
+
+Aprovação lenta travando fechamento
+
+Dependência de gerente/diretor para exceções
+
+Vendedores prometendo preço e condição sem base
+
+Falta de padrão: cada vendedor negocia de um jeito
+
+👉 Resultado direto:
+
+Margem corroída
+
+Processos lentos
+
+Perda de controle comercial
+
+Escala impossível (crescer vendas = perder margem)
+
+Essa dor é universal na indústria B2B, independentemente de ERP, tamanho ou segmento.
+
+💡 O Intuito do Projeto
+
+Criar uma plataforma comercial inteligente, focada exclusivamente em:
+
+Governar descontos, preços e exceções comerciais, sem engessar vendas.
+
+Não é ERP.
+Não é CRM genérico.
+
+É uma camada de inteligência comercial que fica entre o vendedor e a aprovação, garantindo velocidade, margem e padrão.
+
+🧠 O Que o Produto Faz (Visão Clara)
+O produto entrega três coisas ao mesmo tempo:
+1️⃣ Velocidade para vender
+
+O vendedor consegue saber na hora:
+
+Até onde pode ir no desconto
+
+Se a proposta será aprovada
+
+Qual o melhor preço possível
+
+2️⃣ Controle para a empresa
+
+Toda negociação segue políticas comerciais claras
+
+Margem mínima protegida
+
+Exceções rastreáveis
+
+Histórico e aprendizado contínuo
+
+3️⃣ Inteligência que aprende com o negócio
+
+O sistema aprende:
+
+Padrões de aprovação
+
+Comportamento dos vendedores
+
+Clientes que “forçam” desconto
+
+Onde a empresa perde margem sem necessidade
+
+🤖 Onde a IA Entra (Diferencial Forte)
+
+A IA não é acessório, ela é o coração do produto.
+
+Ela atua como um “gerente comercial virtual”:
+
+Analisa pedido, cliente, vendedor, histórico e margem
+
+Classifica o risco da negociação
+
+Sugere:
+
+Aprovar automaticamente
+
+Ajustar o desconto
+
+Escalar para gestor
+
+Aprende com decisões anteriores
+
+👉 Com o tempo, menos aprovações humanas são necessárias
+👉 A empresa ganha escala sem perder controle
+
+🧩 Principais Funcionalidades (Visão Produto)
+
+Aprovação automática de descontos
+
+Políticas comerciais configuráveis
+
+Score de risco da negociação
+
+Simulador de desconto para vendedor
+
+Histórico e auditoria de exceções
+
+Dashboard executivo de margem e perdas evitadas
+
+Integração futura com ERP (SAP, TOTVS, etc.)
+
+💰 Por Que Faz Sentido Financeiramente
+Para o cliente:
+
+1% de margem recuperada paga o sistema várias vezes
+
+Menos tempo parado esperando aprovação
+
+Mais vendas fechadas no tempo certo
+
+Menos dependência de pessoas-chave
+
+Para nós (negócio SaaS):
+
+Dor clara e urgente
+
+Ticket mensal recorrente (R$ 800 – R$ 2.500)
+
+Venda B2B consultiva, alto LTV
+
+Fácil expansão dentro do cliente
+
+Não depende de SAP no início (mercado maior)
+
+🚀 Por Que Este Projeto Faz Sentido Agora
+
+Indústrias estão pressionadas por margem
+
+Times comerciais cada vez mais enxutos
+
+Gestores cansados de “apagar incêndio” de desconto
+
+IA já é aceitável para decisão operacional
+
+Poucos produtos focados exclusivamente nisso
+
+👉 É uma dor que ninguém resolveu bem ainda.
+
+🏁 Conclusão para os Sócios
+
+Este projeto:
+
+Ataca uma dor crítica, recorrente e cara
+
+Não compete com ERP ou CRM
+
+Tem alto potencial de MRR
+
+É escalável, replicável e vendável
+
+Usa IA de forma real, prática e defensável
+
+Resumo em uma frase:
+
+“Estamos criando um gerente comercial digital que protege margem, acelera vendas e permite escalar o time comercial sem perder controle.”
