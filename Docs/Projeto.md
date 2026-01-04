@@ -138,8 +138,7 @@ Representa o cliente do SaaS.
 
 ---
 
-### 3.6 Aprovação
-
+### 3.6 Aprovação - OK
 - **Id**
 - **SolicitaçãoId**
 - **AprovadorId** (ou "IA")
@@ -150,7 +149,7 @@ Representa o cliente do SaaS.
 
 ---
 
-### 3.7 Regra Comercial
+### 3.7 Regra Comercial - OK
 
 - **Id**
 - **Tipo:**
