@@ -189,7 +189,7 @@ margem = (preçoFinal - custoEstimado) / preçoFinal
 
 ---
 
-### 4.2 Validação de Regras Comerciais
+### 4.2 Validação de Regras Comerciais - OK
 
 - Desconto não pode ultrapassar limite por perfil
 - Margem não pode ficar abaixo do mínimo configurado
