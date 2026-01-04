@@ -27,7 +27,7 @@ O sistema **não substitui ERP/CRM**, atua como **camada intermediária**, integ
 
 ---
 
-## 2. Arquitetura Geral (Hexagonal)
+## 2. Arquitetura Geral (Hexagonal) - OK
 
 ```
 /src
@@ -61,7 +61,7 @@ O sistema **não substitui ERP/CRM**, atua como **camada intermediária**, integ
 
 ## 3. Entidades de Domínio (CORE)
 
-### 3.1 Empresa (Tenant)
+### 3.1 Empresa (Tenant) -  OK
 
 Representa o cliente do SaaS.
 
