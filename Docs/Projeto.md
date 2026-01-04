@@ -115,7 +115,7 @@ Representa o cliente do SaaS.
 
 ---
 
-### 3.5 Solicitação de Desconto
+### 3.5 Solicitação de Desconto - OK
 
 **Entidade central do sistema**
 
