@@ -197,7 +197,7 @@ margem = (preçoFinal - custoEstimado) / preçoFinal
 
 ---
 
-### 4.3 Score de Risco
+### 4.3 Score de Risco - OK
 
 Score calculado com base em:
 
