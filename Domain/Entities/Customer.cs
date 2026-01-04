@@ -211,6 +211,30 @@ public class Customer
     public bool CanReceiveDiscountRequests() => Status == CustomerStatus.Active || Status == CustomerStatus.Prospect;
 
     /// <summary>
+    /// Checks if the customer is classified as A-tier (top tier)
+    /// </summary>
+    /// <returns>True if classification is A, false otherwise</returns>
+    public bool IsClassificationA() => Classification == CustomerClassification.A;
+
+    /// <summary>
+    /// Checks if the customer is classified as B-tier (mid tier)
+    /// </summary>
+    /// <returns>True if classification is B, false otherwise</returns>
+    public bool IsClassificationB() => Classification == CustomerClassification.B;
+
+    /// <summary>
+    /// Checks if the customer is classified as C-tier (lower tier)
+    /// </summary>
+    /// <returns>True if classification is C, false otherwise</returns>
+    public bool IsClassificationC() => Classification == CustomerClassification.C;
+
+    /// <summary>
+    /// Checks if the customer is unclassified
+    /// </summary>
+    /// <returns>True if classification is Unclassified, false otherwise</returns>
+    public bool IsUnclassified() => Classification == CustomerClassification.Unclassified;
+
+    /// <summary>
     /// Gets the classification tier as a string
     /// </summary>
     /// <returns>Classification as string (A, B, C, or Unclassified)</returns>
