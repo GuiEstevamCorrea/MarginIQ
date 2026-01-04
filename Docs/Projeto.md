@@ -167,7 +167,7 @@ Representa o cliente do SaaS.
 
 ---
 
-### 3.8 Log de Auditoria
+### 3.8 Log de Auditoria - OK
 
 - **Id**
 - **Entidade**
@@ -181,7 +181,7 @@ Representa o cliente do SaaS.
 
 ## 4. Regras de Negócio (Domain Services)
 
-### 4.1 Cálculo de Margem
+### 4.1 Cálculo de Margem - OK
 
 ```
 margem = (preçoFinal - custoEstimado) / preçoFinal
