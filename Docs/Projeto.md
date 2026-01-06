@@ -357,7 +357,7 @@ Treino periódico baseado em:
 
 ---
 
-### 7.2 Notificações
+### 7.2 Notificações - OK
 
 - Email (obrigatório)
 - WhatsApp (fase 2)
