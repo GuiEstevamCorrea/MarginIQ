@@ -289,7 +289,7 @@ Treino periódico baseado em:
 
 ---
 
-### 5.4 Governança da IA
+### 5.4 Governança da IA - OK
 
 - Ativar/desativar IA por empresa
 - Ajustar autonomia
