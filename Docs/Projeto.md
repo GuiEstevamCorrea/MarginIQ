@@ -265,14 +265,14 @@ Dados armazenados:
 
 ---
 
-#### IA-UC-02 – Calcular Score de Risco
+#### IA-UC-02 – Calcular Score de Risco - OK
 
 - Analisa desvio do padrão histórico
 - Retorna score 0–100
 
 ---
 
-#### IA-UC-03 – Explicabilidade
+#### IA-UC-03 – Explicabilidade - OK
 
 Gera texto simples:
 
