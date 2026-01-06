@@ -221,7 +221,7 @@ Autoaprovação ocorre quando:
 
 ## 5. Módulo de IA (40–50% do projeto)
 
-### 5.1 Arquitetura da IA
+### 5.1 Arquitetura da IA - OK
 
 A IA **não vive no domínio**, entra como **adapter externo**.
 
