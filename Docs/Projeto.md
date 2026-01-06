@@ -366,7 +366,7 @@ Treino periódico baseado em:
 
 ## 8. Requisitos Não Funcionais
 
-### 8.1 Performance
+### 8.1 Performance - OK
 
 - IA responde em até 2s
 - Fallback automático
