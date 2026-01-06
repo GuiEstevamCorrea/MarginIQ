@@ -233,7 +233,7 @@ Application → Port IA → Adapter IA
 
 ---
 
-### 5.2 Base de Aprendizado
+### 5.2 Base de Aprendizado - OK
 
 Dados armazenados:
 
