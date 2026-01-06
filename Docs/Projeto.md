@@ -327,7 +327,7 @@ Treino periódico baseado em:
 
 ### 6.3 Autoaprovação
 
-#### UC-03 – Autoaprovação por IA
+#### UC-03 – Autoaprovação por IA - OK
 
 - Sistema aprova
 - Marca origem como "IA"
