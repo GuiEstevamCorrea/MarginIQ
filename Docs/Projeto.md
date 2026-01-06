@@ -301,7 +301,7 @@ Treino periódico baseado em:
 
 ### 6.1 Solicitar Desconto
 
-#### UC-01 – Criar Solicitação de Desconto
+#### UC-01 – Criar Solicitação de Desconto - OK
 
 1. Validar usuário e empresa
 2. Calcular margem
