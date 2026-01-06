@@ -373,7 +373,7 @@ Treino periódico baseado em:
 
 ---
 
-### 8.2 Segurança
+### 8.2 Segurança - OK
 
 - JWT
 - Perfis
