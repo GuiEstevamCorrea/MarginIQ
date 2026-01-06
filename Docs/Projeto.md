@@ -347,7 +347,7 @@ Treino periódico baseado em:
 
 ## 7. Integrações (Adapters)
 
-### 7.1 ERP / CRM (futuro)
+### 7.1 ERP / CRM (futuro) - OK
 
 - SAP
 - TOTVS

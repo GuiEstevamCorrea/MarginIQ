@@ -99,4 +99,13 @@ public interface ICustomerRepository
     /// <param name="cancellationToken">Cancellation token</param>
     /// <returns>True if a customer with the name exists in the company, false otherwise</returns>
     Task<bool> ExistsByNameAsync(string name, Guid companyId, Guid? excludeId = null, CancellationToken cancellationToken = default);
+
+    /// <summary>
+    /// Gets a customer by external system ID (for integration with ERP/CRM)
+    /// </summary>
+    /// <param name="companyId">Company ID</param>
+    /// <param name="externalSystemId">External system identifier</param>
+    /// <param name="cancellationToken">Cancellation token</param>
+    /// <returns>Customer if found, null otherwise</returns>
+    Task<Customer?> GetByExternalIdAsync(Guid companyId, string externalSystemId, CancellationToken cancellationToken = default);
 }

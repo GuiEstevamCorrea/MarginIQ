@@ -46,6 +46,12 @@ public class Customer
     public string? AdditionalInfo { get; private set; }
 
     /// <summary>
+    /// External system identifier for integration (SAP, TOTVS, etc.)
+    /// Used to sync data with external ERP/CRM systems
+    /// </summary>
+    public string? ExternalSystemId { get; private set; }
+
+    /// <summary>
     /// Date and time when the customer was created
     /// </summary>
     public DateTime CreatedAt { get; private set; }
@@ -182,6 +188,16 @@ public class Customer
     public void UpdateAdditionalInfo(string? additionalInfo)
     {
         AdditionalInfo = additionalInfo;
+        UpdatedAt = DateTime.UtcNow;
+    }
+
+    /// <summary>
+    /// Sets the external system identifier for integration purposes
+    /// </summary>
+    /// <param name="externalSystemId">External system ID (from SAP, TOTVS, etc.)</param>
+    public void SetExternalId(string? externalSystemId)
+    {
+        ExternalSystemId = externalSystemId;
         UpdatedAt = DateTime.UtcNow;
     }
 

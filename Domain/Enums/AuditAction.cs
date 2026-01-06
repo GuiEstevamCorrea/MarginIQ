@@ -16,5 +16,8 @@ public enum AuditAction
     StatusChanged = 9,
     AccessGranted = 10,
     AccessDenied = 11,
+    DataImport = 12,
+    DataExport = 13,
+    DataSync = 14,
     Other = 99
 }
