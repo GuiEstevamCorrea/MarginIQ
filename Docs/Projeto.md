@@ -281,8 +281,7 @@ Gera texto simples:
 
 ---
 
-#### IA-UC-04 – Aprendizado Incremental
-
+#### IA-UC-04 – Aprendizado Incremental - OK
 Treino periódico baseado em:
 
 - Decisões humanas
