@@ -381,7 +381,7 @@ Treino periódico baseado em:
 
 ---
 
-### 8.3 Escalabilidade
+### 8.3 Escalabilidade - OK
 
 - Multi-tenant
 - IA isolada por empresa
