@@ -317,7 +317,7 @@ Treino periódico baseado em:
 
 ### 6.2 Aprovação
 
-#### UC-02 – Aprovar / Reprovar Solicitação
+#### UC-02 – Aprovar / Reprovar Solicitação - OK
 
 - Gestor decide
 - Justificativa obrigatória se reprovar

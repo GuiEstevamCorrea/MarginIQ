@@ -271,6 +271,20 @@ public class AILearningData
     }
 
     /// <summary>
+    /// Records the human decision for this learning data
+    /// Updates the approved discount percentage and decision details
+    /// </summary>
+    /// <param name="approved">Whether the request was approved</param>
+    /// <param name="approvedDiscountPercentage">The approved discount percentage (if approved)</param>
+    public void RecordHumanDecision(bool approved, decimal? approvedDiscountPercentage = null)
+    {
+        Decision = approved ? ApprovalDecision.Approve : ApprovalDecision.Reject;
+        DecisionSource = ApprovalSource.Human;
+        ApprovedDiscountPercentage = approvedDiscountPercentage;
+        DecisionMadeAt = DateTime.UtcNow;
+    }
+
+    /// <summary>
     /// Marks this data as used for training
     /// </summary>
     public void MarkAsUsedForTraining()

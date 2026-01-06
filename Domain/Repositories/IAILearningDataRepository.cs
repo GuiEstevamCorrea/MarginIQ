@@ -20,8 +20,9 @@ public interface IAILearningDataRepository
     /// Gets learning data by discount request ID
     /// </summary>
     /// <param name="discountRequestId">Discount request ID</param>
+    /// <param name="cancellationToken">Cancellation token</param>
     /// <returns>Learning data if found, null otherwise</returns>
-    Task<AILearningData?> GetByDiscountRequestIdAsync(Guid discountRequestId);
+    Task<AILearningData?> GetByDiscountRequestIdAsync(Guid discountRequestId, CancellationToken cancellationToken = default);
 
     /// <summary>
     /// Gets all learning data for a company
