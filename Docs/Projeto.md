@@ -337,7 +337,7 @@ Treino periódico baseado em:
 
 ### 6.4 Histórico e Auditoria
 
-#### UC-04 – Consultar Histórico
+#### UC-04 – Consultar Histórico - OK
 
 - Todas as decisões
 - Humano vs IA
