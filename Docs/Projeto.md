@@ -248,7 +248,7 @@ Dados armazenados:
 
 ### 5.3 Casos de Uso da IA
 
-#### IA-UC-01 – Recomendar Desconto
+#### IA-UC-01 – Recomendar Desconto - OK
 
 **Input:**
 
