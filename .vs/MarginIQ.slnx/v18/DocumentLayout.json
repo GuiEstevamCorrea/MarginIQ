@@ -3,8 +3,248 @@
   "WorkspaceRootPath": "C:\\sdk\\MarginIQ\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7C9F493-210B-4CD6-937C-084D4D36282B}|Infrastructure\\Infrastructure.csproj|c:\\sdk\\marginiq\\infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7C9F493-210B-4CD6-937C-084D4D36282B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7C9F493-210B-4CD6-937C-084D4D36282B}|Infrastructure\\Infrastructure.csproj|c:\\sdk\\marginiq\\infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C9F493-210B-4CD6-937C-084D4D36282B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\sdk\\MarginIQ\\Tests\\Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tests\\Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\sdk\\MarginIQ\\Tests\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tests\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C9F493-210B-4CD6-937C-084D4D36282B}|Infrastructure\\Infrastructure.csproj|c:\\sdk\\marginiq\\infrastructure\\migrations\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{E7C9F493-210B-4CD6-937C-084D4D36282B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C9F493-210B-4CD6-937C-084D4D36282B}|Infrastructure\\Infrastructure.csproj|c:\\sdk\\marginiq\\infrastructure\\migrations\\20260107002235_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C9F493-210B-4CD6-937C-084D4D36282B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20260107002235_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C9F493-210B-4CD6-937C-084D4D36282B}|Infrastructure\\Infrastructure.csproj|c:\\sdk\\marginiq\\infrastructure\\data\\configurations\\companyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C9F493-210B-4CD6-937C-084D4D36282B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\configurations\\companyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C9F493-210B-4CD6-937C-084D4D36282B}|Infrastructure\\Infrastructure.csproj|c:\\sdk\\marginiq\\infrastructure\\data\\marginiqdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7C9F493-210B-4CD6-937C-084D4D36282B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\marginiqdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\usecases\\senddiscountrequestnotificationusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\usecases\\senddiscountrequestnotificationusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\ports\\iexternalsystemintegrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\ports\\iexternalsystemintegrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\usecases\\importcustomersfromexternalsystemusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\usecases\\importcustomersfromexternalsystemusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\usecases\\querydiscountrequesthistoryusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\usecases\\querydiscountrequesthistoryusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\usecases\\reviewautoapprovalusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\usecases\\reviewautoapprovalusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\dtos\\tryautoapprovediscountrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\dtos\\tryautoapprovediscountrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\dtos\\reviewautoapprovaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\dtos\\reviewautoapprovaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\usecases\\approveorrejectdiscountrequestusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\usecases\\approveorrejectdiscountrequestusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\dtos\\approveorrejectdiscountrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\dtos\\approveorrejectdiscountrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\usecases\\creatediscountrequestusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\usecases\\creatediscountrequestusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\usecases\\updateaigovernancesettingsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\usecases\\updateaigovernancesettingsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\usecases\\getaigovernancesettingsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\usecases\\getaigovernancesettingsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\usecases\\getaidecisionauditreportusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\usecases\\getaidecisionauditreportusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\usecases\\triggerincrementallearningusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\usecases\\triggerincrementallearningusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\usecases\\explaindecisionusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\usecases\\explaindecisionusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\usecases\\calculateriskscoreusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\usecases\\calculateriskscoreusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\dtos\\calculateriskscoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\dtos\\calculateriskscoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\usecases\\recommenddiscountusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\usecases\\recommenddiscountusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\repositories\\iailearningdatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\repositories\\iailearningdatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\entities\\ailearningdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\ailearningdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\ports\\iaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|solutionrelative:application\\ports\\iaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\services\\autoapprovalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\services\\autoapprovalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\services\\riskscorecalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\services\\riskscorecalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\services\\businessrulevalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\services\\businessrulevalidationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\services\\validationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\services\\validationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\services\\margincalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\services\\margincalculationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\repositories\\iauditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\repositories\\iauditlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\enums\\auditorigin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\auditorigin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\enums\\auditaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\auditaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\entities\\businessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\businessrule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\enums\\rulescope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\rulescope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\enums\\ruletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\ruletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\repositories\\ibusinessrulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\repositories\\ibusinessrulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\entities\\discountrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\discountrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\enums\\discountrequeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\discountrequeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\repositories\\idiscountrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\repositories\\idiscountrequestrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\valueobjects\\discountrequestitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\valueobjects\\discountrequestitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\enums\\productstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\productstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\valueobjects\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\valueobjects\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\enums\\customerstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\customerstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\enums\\customerclassification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\customerclassification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\enums\\userstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\userstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\repositories\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\repositories\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\enums\\companystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\companystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\enums\\companysegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\companysegment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CC19282-0A3F-4B48-9159-FB6CBEC42FD3}|Application\\Application.csproj|c:\\sdk\\marginiq\\application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +253,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|c:\\sdk\\marginiq\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2689320D-8D8A-455D-8413-37EB7DE6C980}|Domain\\Domain.csproj|solutionrelative:domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7C9F493-210B-4CD6-937C-084D4D36282B}|Infrastructure\\Infrastructure.csproj|c:\\sdk\\marginiq\\infrastructure\\migrations\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{E7C9F493-210B-4CD6-937C-084D4D36282B}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,19 +279,798 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\sdk\\MarginIQ\\Infrastructure\\Class1.cs",
-              "RelativeToolTip": "Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwFEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T20:06:06.456Z",
+              "WhenOpened": "2026-01-07T00:36:19.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Tests.csproj",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Tests\\Tests.csproj",
+              "RelativeDocumentMoniker": "Tests\\Tests.csproj",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Tests\\Tests.csproj",
+              "RelativeToolTip": "Tests\\Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-07T00:28:24.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Tests\\Program.cs",
+              "RelativeDocumentMoniker": "Tests\\Program.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Tests\\Program.cs",
+              "RelativeToolTip": "Tests\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T00:28:22.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InitialCreate.sql ",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Infrastructure\\Migrations\\InitialCreate.sql",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\InitialCreate.sql",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Infrastructure\\Migrations\\InitialCreate.sql",
+              "RelativeToolTip": "Infrastructure\\Migrations\\InitialCreate.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002897|",
+              "WhenOpened": "2026-01-07T00:23:55.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260107002235_InitialCreate.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Infrastructure\\Migrations\\20260107002235_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20260107002235_InitialCreate.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Infrastructure\\Migrations\\20260107002235_InitialCreate.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20260107002235_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T00:23:52.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CompanyConfiguration.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Infrastructure\\Data\\Configurations\\CompanyConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\CompanyConfiguration.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Infrastructure\\Data\\Configurations\\CompanyConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\CompanyConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T00:23:50.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MarginIQDbContext.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Infrastructure\\Data\\MarginIQDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\MarginIQDbContext.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Infrastructure\\Data\\MarginIQDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\MarginIQDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T00:18:29.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SendDiscountRequestNotificationUseCase.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\UseCases\\SendDiscountRequestNotificationUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\SendDiscountRequestNotificationUseCase.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\UseCases\\SendDiscountRequestNotificationUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\SendDiscountRequestNotificationUseCase.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAowJ4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T23:15:29.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IExternalSystemIntegrationService.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\Ports\\IExternalSystemIntegrationService.cs",
+              "RelativeDocumentMoniker": "Application\\Ports\\IExternalSystemIntegrationService.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\Ports\\IExternalSystemIntegrationService.cs",
+              "RelativeToolTip": "Application\\Ports\\IExternalSystemIntegrationService.cs",
+              "ViewState": "AgIAAHsBAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T10:36:21.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ImportCustomersFromExternalSystemUseCase.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\UseCases\\ImportCustomersFromExternalSystemUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\ImportCustomersFromExternalSystemUseCase.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\UseCases\\ImportCustomersFromExternalSystemUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\ImportCustomersFromExternalSystemUseCase.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T10:36:13.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QueryDiscountRequestHistoryUseCase.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\UseCases\\QueryDiscountRequestHistoryUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\QueryDiscountRequestHistoryUseCase.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\UseCases\\QueryDiscountRequestHistoryUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\QueryDiscountRequestHistoryUseCase.cs",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T10:27:49.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReviewAutoApprovalUseCase.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\UseCases\\ReviewAutoApprovalUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\ReviewAutoApprovalUseCase.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\UseCases\\ReviewAutoApprovalUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\ReviewAutoApprovalUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T10:24:19.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TryAutoApproveDiscountRequestDTO.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\DTOs\\TryAutoApproveDiscountRequestDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\TryAutoApproveDiscountRequestDTO.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\DTOs\\TryAutoApproveDiscountRequestDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\TryAutoApproveDiscountRequestDTO.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T10:24:14.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReviewAutoApprovalDTO.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\DTOs\\ReviewAutoApprovalDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ReviewAutoApprovalDTO.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\DTOs\\ReviewAutoApprovalDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\ReviewAutoApprovalDTO.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T10:24:09.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApproveOrRejectDiscountRequestUseCase.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\UseCases\\ApproveOrRejectDiscountRequestUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\ApproveOrRejectDiscountRequestUseCase.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\UseCases\\ApproveOrRejectDiscountRequestUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\ApproveOrRejectDiscountRequestUseCase.cs",
+              "ViewState": "AgIAABkBAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T10:18:00.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApproveOrRejectDiscountRequestDTO.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\DTOs\\ApproveOrRejectDiscountRequestDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\ApproveOrRejectDiscountRequestDTO.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\DTOs\\ApproveOrRejectDiscountRequestDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\ApproveOrRejectDiscountRequestDTO.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T10:17:54.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateDiscountRequestUseCase.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\UseCases\\CreateDiscountRequestUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\CreateDiscountRequestUseCase.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\UseCases\\CreateDiscountRequestUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\CreateDiscountRequestUseCase.cs",
+              "ViewState": "AgIAALcCAAAAAAAAAADwv10AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T01:57:32.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateAIGovernanceSettingsUseCase.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\UseCases\\UpdateAIGovernanceSettingsUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\UpdateAIGovernanceSettingsUseCase.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\UseCases\\UpdateAIGovernanceSettingsUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\UpdateAIGovernanceSettingsUseCase.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T01:41:38.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetAIGovernanceSettingsUseCase.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\UseCases\\GetAIGovernanceSettingsUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\GetAIGovernanceSettingsUseCase.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\UseCases\\GetAIGovernanceSettingsUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\GetAIGovernanceSettingsUseCase.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T01:41:30.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetAIDecisionAuditReportUseCase.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\UseCases\\GetAIDecisionAuditReportUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\GetAIDecisionAuditReportUseCase.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\UseCases\\GetAIDecisionAuditReportUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\GetAIDecisionAuditReportUseCase.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T01:41:19.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TriggerIncrementalLearningUseCase.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\UseCases\\TriggerIncrementalLearningUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\TriggerIncrementalLearningUseCase.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\UseCases\\TriggerIncrementalLearningUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\TriggerIncrementalLearningUseCase.cs",
+              "ViewState": "AgIAAF0BAAAAAAAAAAAUwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T01:35:42.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ExplainDecisionUseCase.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\UseCases\\ExplainDecisionUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\ExplainDecisionUseCase.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\UseCases\\ExplainDecisionUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\ExplainDecisionUseCase.cs",
+              "ViewState": "AgIAAPMBAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T01:30:15.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CalculateRiskScoreUseCase.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\UseCases\\CalculateRiskScoreUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\CalculateRiskScoreUseCase.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\UseCases\\CalculateRiskScoreUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\CalculateRiskScoreUseCase.cs",
+              "ViewState": "AgIAAMgBAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T01:23:58.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CalculateRiskScoreDTO.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\DTOs\\CalculateRiskScoreDTO.cs",
+              "RelativeDocumentMoniker": "Application\\DTOs\\CalculateRiskScoreDTO.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\DTOs\\CalculateRiskScoreDTO.cs",
+              "RelativeToolTip": "Application\\DTOs\\CalculateRiskScoreDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T01:23:57.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RecommendDiscountUseCase.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\UseCases\\RecommendDiscountUseCase.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\RecommendDiscountUseCase.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\UseCases\\RecommendDiscountUseCase.cs",
+              "RelativeToolTip": "Application\\UseCases\\RecommendDiscountUseCase.cs",
+              "ViewState": "AgIAALwBAAAAAAAAAAAkwCYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T01:17:00.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IAILearningDataRepository.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Repositories\\IAILearningDataRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Repositories\\IAILearningDataRepository.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Repositories\\IAILearningDataRepository.cs",
+              "RelativeToolTip": "Domain\\Repositories\\IAILearningDataRepository.cs",
+              "ViewState": "AgIAANsAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T01:14:20.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AILearningData.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Entities\\AILearningData.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\AILearningData.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Entities\\AILearningData.cs",
+              "RelativeToolTip": "Domain\\Entities\\AILearningData.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T01:14:09.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IAIService.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\Ports\\IAIService.cs",
+              "RelativeDocumentMoniker": "Application\\Ports\\IAIService.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Application\\Ports\\IAIService.cs",
+              "RelativeToolTip": "Application\\Ports\\IAIService.cs",
+              "ViewState": "AgIAAIIBAAAAAAAAAAAUwJUBAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T01:11:16.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AutoApprovalService.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Services\\AutoApprovalService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\AutoApprovalService.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Services\\AutoApprovalService.cs",
+              "RelativeToolTip": "Domain\\Services\\AutoApprovalService.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAIwNQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T22:01:07.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RiskScoreCalculationService.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Services\\RiskScoreCalculationService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\RiskScoreCalculationService.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Services\\RiskScoreCalculationService.cs",
+              "RelativeToolTip": "Domain\\Services\\RiskScoreCalculationService.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAuwHcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T21:57:26.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BusinessRuleValidationService.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Services\\BusinessRuleValidationService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\BusinessRuleValidationService.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Services\\BusinessRuleValidationService.cs",
+              "RelativeToolTip": "Domain\\Services\\BusinessRuleValidationService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T21:54:44.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ValidationResult.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Services\\ValidationResult.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\ValidationResult.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Services\\ValidationResult.cs",
+              "RelativeToolTip": "Domain\\Services\\ValidationResult.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T21:54:39.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MarginCalculationService.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Services\\MarginCalculationService.cs",
+              "RelativeDocumentMoniker": "Domain\\Services\\MarginCalculationService.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Services\\MarginCalculationService.cs",
+              "RelativeToolTip": "Domain\\Services\\MarginCalculationService.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T21:50:37.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IAuditLogRepository.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Repositories\\IAuditLogRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Repositories\\IAuditLogRepository.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Repositories\\IAuditLogRepository.cs",
+              "RelativeToolTip": "Domain\\Repositories\\IAuditLogRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T21:47:31.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AuditOrigin.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Enums\\AuditOrigin.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\AuditOrigin.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Enums\\AuditOrigin.cs",
+              "RelativeToolTip": "Domain\\Enums\\AuditOrigin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T21:47:28.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AuditAction.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Enums\\AuditAction.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\AuditAction.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Enums\\AuditAction.cs",
+              "RelativeToolTip": "Domain\\Enums\\AuditAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T21:47:17.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Entities\\AuditLog.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\AuditLog.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Entities\\AuditLog.cs",
+              "RelativeToolTip": "Domain\\Entities\\AuditLog.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T21:47:13.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BusinessRule.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Entities\\BusinessRule.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\BusinessRule.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Entities\\BusinessRule.cs",
+              "RelativeToolTip": "Domain\\Entities\\BusinessRule.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T21:41:37.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RuleScope.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Enums\\RuleScope.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\RuleScope.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Enums\\RuleScope.cs",
+              "RelativeToolTip": "Domain\\Enums\\RuleScope.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T21:41:35.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RuleType.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Enums\\RuleType.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\RuleType.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Enums\\RuleType.cs",
+              "RelativeToolTip": "Domain\\Enums\\RuleType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T21:41:33.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IBusinessRuleRepository.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Repositories\\IBusinessRuleRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Repositories\\IBusinessRuleRepository.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Repositories\\IBusinessRuleRepository.cs",
+              "RelativeToolTip": "Domain\\Repositories\\IBusinessRuleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T21:41:31.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DiscountRequest.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Entities\\DiscountRequest.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\DiscountRequest.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Entities\\DiscountRequest.cs",
+              "RelativeToolTip": "Domain\\Entities\\DiscountRequest.cs",
+              "ViewState": "AgIAAE8BAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:23:56.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DiscountRequestStatus.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Enums\\DiscountRequestStatus.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\DiscountRequestStatus.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Enums\\DiscountRequestStatus.cs",
+              "RelativeToolTip": "Domain\\Enums\\DiscountRequestStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:23:41.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IDiscountRequestRepository.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Repositories\\IDiscountRequestRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Repositories\\IDiscountRequestRepository.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Repositories\\IDiscountRequestRepository.cs",
+              "RelativeToolTip": "Domain\\Repositories\\IDiscountRequestRepository.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:23:38.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DiscountRequestItem.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\ValueObjects\\DiscountRequestItem.cs",
+              "RelativeDocumentMoniker": "Domain\\ValueObjects\\DiscountRequestItem.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\ValueObjects\\DiscountRequestItem.cs",
+              "RelativeToolTip": "Domain\\ValueObjects\\DiscountRequestItem.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:23:29.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:20:30.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ProductStatus.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Enums\\ProductStatus.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\ProductStatus.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Enums\\ProductStatus.cs",
+              "RelativeToolTip": "Domain\\Enums\\ProductStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:20:26.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "Domain\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:20:22.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Money.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\ValueObjects\\Money.cs",
+              "RelativeDocumentMoniker": "Domain\\ValueObjects\\Money.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\ValueObjects\\Money.cs",
+              "RelativeToolTip": "Domain\\ValueObjects\\Money.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:20:14.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Repositories\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Repositories\\ICustomerRepository.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Repositories\\ICustomerRepository.cs",
+              "RelativeToolTip": "Domain\\Repositories\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:17:25.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CustomerStatus.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Enums\\CustomerStatus.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\CustomerStatus.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Enums\\CustomerStatus.cs",
+              "RelativeToolTip": "Domain\\Enums\\CustomerStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:17:23.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CustomerClassification.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Enums\\CustomerClassification.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\CustomerClassification.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Enums\\CustomerClassification.cs",
+              "RelativeToolTip": "Domain\\Enums\\CustomerClassification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:17:14.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Customer.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Entities\\Customer.cs",
+              "RelativeToolTip": "Domain\\Entities\\Customer.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:17:06.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:14:34.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "Domain\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:14:32.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UserStatus.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Enums\\UserStatus.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\UserStatus.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Enums\\UserStatus.cs",
+              "RelativeToolTip": "Domain\\Enums\\UserStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:14:30.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "Domain\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:14:25.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ICompanyRepository.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Repositories\\ICompanyRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Repositories\\ICompanyRepository.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Repositories\\ICompanyRepository.cs",
+              "RelativeToolTip": "Domain\\Repositories\\ICompanyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:12:11.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CompanyStatus.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Enums\\CompanyStatus.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\CompanyStatus.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Enums\\CompanyStatus.cs",
+              "RelativeToolTip": "Domain\\Enums\\CompanyStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:12:09.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Entities\\Company.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Company.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Entities\\Company.cs",
+              "RelativeToolTip": "Domain\\Entities\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:12:04.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CompanySegment.cs",
+              "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Enums\\CompanySegment.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\CompanySegment.cs",
+              "ToolTip": "C:\\sdk\\MarginIQ\\Domain\\Enums\\CompanySegment.cs",
+              "RelativeToolTip": "Domain\\Enums\\CompanySegment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-04T20:12:03.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\sdk\\MarginIQ\\Application\\Class1.cs",
               "RelativeDocumentMoniker": "Application\\Class1.cs",
@@ -60,7 +1083,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 62,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\sdk\\MarginIQ\\Domain\\Class1.cs",
               "RelativeDocumentMoniker": "Domain\\Class1.cs",
