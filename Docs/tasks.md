@@ -1,6 +1,6 @@
 # 🔧 EPIC 1 — Infrastructure: Persistence (EF Core + SQL Server) [P0]
 
-## 1.1 Criar DbContext base
+## 1.1 Criar DbContext base - OK
 
 ### Atividades
 
@@ -19,9 +19,9 @@
 
 ### Critérios de aceite
 
-- [ ] Projeto compila
-- [ ] DbContext inicializa com SQL Server local
-- [ ] Conexão configurável via appsettings.json
+- [x] Projeto compila
+- [x] DbContext inicializa com SQL Server local
+- [x] Conexão configurável via appsettings.json
 
 ---
 
