@@ -77,7 +77,7 @@
 
 ---
 
-## 1.4 Implementação dos Repositórios
+## 1.4 Implementação dos Repositórios - OK
 
 ### Atividades
 
@@ -106,9 +106,10 @@
 
 ### Critérios de aceite
 
-- [ ] Use Cases executam CRUD real
-- [ ] Multi-tenant isolado por query
-- [ ] Nenhum acesso direto ao EF fora da Infrastructure
+- [x] Use Cases executam CRUD real
+- [x] Multi-tenant isolado por query
+- [x] Nenhum acesso direto ao EF fora da Infrastructure
+
 
 ---
 
