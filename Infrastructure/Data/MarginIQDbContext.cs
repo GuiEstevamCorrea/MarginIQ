@@ -55,6 +55,11 @@ public class MarginIQDbContext : DbContext
     public DbSet<AuditLog> AuditLogs { get; set; } = null!;
 
     /// <summary>
+    /// Refresh tokens for JWT authentication
+    /// </summary>
+    public DbSet<RefreshToken> RefreshTokens { get; set; } = null!;
+
+    /// <summary>
     /// Constructor that injects DbContextOptions
     /// </summary>
     /// <param name="options">Database context configuration options</param>

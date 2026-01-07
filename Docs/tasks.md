@@ -146,9 +146,9 @@
 
 ### Critérios de aceite
 
-- [ ] Login retorna tokens válidos
-- [ ] Token contém claims necessárias
-- [ ] Refresh token funciona
+- [x] Login retorna tokens válidos
+- [x] Token contém claims necessárias
+- [x] Refresh token funciona
 
 ---
 
