@@ -51,7 +51,7 @@
 
 ---
 
-## 1.3 Value Objects (Money + Owned Types)
+## 1.3 Value Objects (Money + Owned Types) - OK
 
 ### Money
 
@@ -71,9 +71,9 @@
 
 ### Critérios de aceite
 
-- [ ] Dados persistidos corretamente
-- [ ] Sem tabelas órfãs
-- [ ] Queries carregam corretamente os itens
+- [x] Dados persistidos corretamente
+- [x] Sem tabelas órfãs
+- [x] Queries carregam corretamente os itens
 
 ---
 
