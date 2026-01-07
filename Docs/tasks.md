@@ -25,7 +25,7 @@
 
 ---
 
-## 1.2 Configuração de entidades (Fluent API)
+## 1.2 Configuração de entidades (Fluent API) - OK
 
 ### Atividades
 
@@ -45,9 +45,9 @@
 
 ### Critérios de aceite
 
-- [ ] `dotnet ef migrations add Initial`
-- [ ] Migration gerada sem erros
-- [ ] Script SQL coerente
+- [x] `dotnet ef migrations add Initial`
+- [x] Migration gerada sem erros
+- [x] Script SQL coerente
 
 ---
 

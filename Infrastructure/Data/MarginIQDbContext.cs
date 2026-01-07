@@ -71,7 +71,7 @@ public class MarginIQDbContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
 
-        // Entity configurations will be applied here
-        // This will be implemented in task 1.2 (Fluent API configuration)
+        // Apply all entity configurations from the Configurations folder
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(MarginIQDbContext).Assembly);
     }
 }
