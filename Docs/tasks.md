@@ -115,7 +115,7 @@
 
 # 🔐 EPIC 2 — Authentication (JWT) [P0]
 
-## 2.1 Hash de senha
+## 2.1 Hash de senha - OK
 
 ### Atividades
 
@@ -127,8 +127,8 @@
 
 ### Critérios de aceite
 
-- [ ] Senhas nunca persistidas em texto puro
-- [ ] Hash validado corretamente
+- [x] Senhas nunca persistidas em texto puro
+- [x] Hash validado corretamente
 
 ---
 

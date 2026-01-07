@@ -1,10 +1,19 @@
+using Infrastructure.Tests;
 using Infrastructure.Tests.Integration;
 
-Console.WriteLine("MarginIQ - Value Objects Persistence Tests");
-Console.WriteLine("==========================================\n");
+Console.WriteLine("MarginIQ - Infrastructure Layer Tests");
+Console.WriteLine("======================================\n");
 
 try
 {
+    // Run password hasher tests
+    Console.WriteLine("Password Hasher Tests");
+    Console.WriteLine("---------------------");
+    var passwordHasherTests = new PasswordHasherTests();
+    await passwordHasherTests.RunAllTests();
+
+    Console.WriteLine("\nValue Objects Persistence Tests");
+    Console.WriteLine("--------------------------------");
     await ValueObjectsPersistenceTests.RunAllTests();
     
     Console.WriteLine("\n✓ All acceptance criteria met:");

@@ -1,6 +1,8 @@
+using Application.Ports;
 using Domain.Repositories;
 using Infrastructure.Data;
 using Infrastructure.Repositories;
+using Infrastructure.Security;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,6 +31,9 @@ builder.Services.AddScoped<IApprovalRepository, ApprovalRepository>();
 builder.Services.AddScoped<IBusinessRuleRepository, BusinessRuleRepository>();
 builder.Services.AddScoped<IAILearningDataRepository, AILearningDataRepository>();
 builder.Services.AddScoped<IAuditLogRepository, AuditLogRepository>();
+
+// Register Security Services
+builder.Services.AddSingleton<IPasswordHasher, BCryptPasswordHasher>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
