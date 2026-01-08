@@ -1,3 +1,4 @@
+using Api.Middleware;
 using MarginIQ.Application.DTOs.Auth;
 using MarginIQ.Application.Ports;
 using Microsoft.AspNetCore.Authorization;
@@ -15,13 +16,16 @@ public class AuthController : ControllerBase
 {
     private readonly IAuthenticationService _authenticationService;
     private readonly ILogger<AuthController> _logger;
+    private readonly ITenantContext _tenantContext;
 
     public AuthController(
         IAuthenticationService authenticationService,
-        ILogger<AuthController> logger)
+        ILogger<AuthController> logger,
+        ITenantContext tenantContext)
     {
         _authenticationService = authenticationService;
         _logger = logger;
+        _tenantContext = tenantContext;
     }
 
     /// <summary>
@@ -169,6 +173,7 @@ public class AuthController : ControllerBase
 
     /// <summary>
     /// Gets information about the current authenticated user.
+    /// Uses tenant context to provide rich user information.
     /// </summary>
     /// <returns>Current user information</returns>
     [HttpGet("me")]
@@ -177,21 +182,21 @@ public class AuthController : ControllerBase
     {
         try
         {
-            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
-            var userName = User.FindFirst(System.Security.Claims.ClaimTypes.Name)?.Value;
-            var userEmail = User.FindFirst(System.Security.Claims.ClaimTypes.Email)?.Value;
-            var userRole = User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value;
-            var companyId = User.FindFirst("CompanyId")?.Value;
-            var companyName = User.FindFirst("CompanyName")?.Value;
+            // Use tenant context for consistent user information
+            if (!_tenantContext.IsAuthenticated)
+            {
+                return Unauthorized(new { message = "User is not properly authenticated." });
+            }
 
             return Ok(new
             {
-                id = userId,
-                name = userName,
-                email = userEmail,
-                role = userRole,
-                companyId = companyId,
-                companyName = companyName
+                id = _tenantContext.UserId,
+                name = _tenantContext.UserName,
+                email = _tenantContext.UserEmail,
+                role = _tenantContext.UserRole,
+                companyId = _tenantContext.CompanyId,
+                companyName = _tenantContext.CompanyName,
+                isAuthenticated = _tenantContext.IsAuthenticated
             });
         }
         catch (Exception ex)

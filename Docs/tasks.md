@@ -132,7 +132,7 @@
 
 ---
 
-## 2.2 Geração de JWT
+## 2.2 Geração de JWT - OK
 
 ### Atividades
 
@@ -163,9 +163,9 @@
 
 ### Critérios de aceite
 
-- [ ] Endpoints protegidos
-- [ ] Token inválido → 401
-- [ ] Token válido → acesso liberado
+- [x] Endpoints protegidos
+- [x] Token inválido → 401
+- [x] Token válido → acesso liberado
 
 ---
 
