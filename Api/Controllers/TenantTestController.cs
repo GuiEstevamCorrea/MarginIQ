@@ -5,11 +5,12 @@ using Microsoft.AspNetCore.Mvc;
 namespace Api.Controllers;
 
 /// <summary>
-/// Test controller to demonstrate multi-tenant authentication and authorization.
-/// Shows how tenant context is extracted from JWT tokens.
+/// Debug controller to test multi-tenant authentication and authorization.
+/// This controller is for development and testing purposes only.
+/// In production, remove this controller and use the real business controllers.
 /// </summary>
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/debug/[controller]")]
 [Authorize]
 public class TenantTestController : ControllerBase
 {
