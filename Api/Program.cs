@@ -1,6 +1,7 @@
 using System.Text;
 using Api.Middleware;
 using Application.Ports;
+using Application.Services;
 using Domain.Repositories;
 using Infrastructure.Data;
 using Infrastructure.Data.Extensions;
@@ -42,6 +43,8 @@ builder.Services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
 // Register Security Services
 builder.Services.AddSingleton<IPasswordHasher, BCryptPasswordHasher>();
 builder.Services.AddScoped<IAuthenticationService, JwtAuthenticationService>();
+// Register Authorization service (RBAC)
+builder.Services.AddScoped<IAuthorizationService, AuthorizationService>();
 
 // Configure JWT Authentication
 var jwtSecretKey = builder.Configuration["Jwt:SecretKey"] ?? throw new InvalidOperationException("JWT SecretKey not configured");

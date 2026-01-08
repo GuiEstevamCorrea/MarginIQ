@@ -152,7 +152,7 @@
 
 ---
 
-## 2.3 Middleware de autenticação
+## 2.3 Middleware de autenticação - OK
 
 ### Atividades
 
@@ -171,7 +171,7 @@
 
 # 🛂 EPIC 3 — Authorization & Multi-Tenant [P0]
 
-## 3.1 RBAC (Role-Based Access Control)
+## 3.1 RBAC (Role-Based Access Control) - OK
 
 ### Atividades
 
@@ -184,9 +184,9 @@
 
 ### Critérios de aceite
 
-- [ ] Salesperson não aprova
-- [ ] Manager aprova
-- [ ] Admin configura AI
+- [x] Salesperson não aprova
+- [x] Manager aprova
+- [x] Admin configura AI
 
 ---
 
