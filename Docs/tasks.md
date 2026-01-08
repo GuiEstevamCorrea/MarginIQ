@@ -190,7 +190,7 @@
 
 ---
 
-## 3.2 Filtro de isolamento multi-tenant
+## 3.2 Filtro de isolamento multi-tenant - OK
 
 ### Atividades
 
@@ -200,8 +200,8 @@
 
 ### Critérios de aceite
 
-- [ ] Usuário de uma empresa não acessa dados de outra
-- [ ] Teste manual com dois CompanyIds
+- [x] Usuário de uma empresa não acessa dados de outra
+- [x] Teste manual com dois CompanyIds
 
 ---
 

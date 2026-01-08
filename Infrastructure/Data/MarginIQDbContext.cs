@@ -1,5 +1,6 @@
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using System.Linq.Expressions;
 
 namespace Infrastructure.Data;
 
@@ -9,6 +10,12 @@ namespace Infrastructure.Data;
 /// </summary>
 public class MarginIQDbContext : DbContext
 {
+    /// <summary>
+    /// Current request tenant (CompanyId). Set by middleware per-request.
+    /// When not set, defaults to Guid.Empty which disables filtering.
+    /// </summary>
+    public Guid CurrentCompanyId { get; set; } = Guid.Empty;
+
     /// <summary>
     /// Companies (Tenants) in the multi-tenant system
     /// </summary>
@@ -78,5 +85,24 @@ public class MarginIQDbContext : DbContext
 
         // Apply all entity configurations from the Configurations folder
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(MarginIQDbContext).Assembly);
+
+        // Apply a global query filter to all entities that have a `CompanyId` property.
+        // The filter compares the entity's CompanyId to the DbContext.CurrentCompanyId,
+        // which is populated per-request by the Tenant middleware.
+        var tenantPropertyName = "CompanyId";
+        foreach (var entityType in modelBuilder.Model.GetEntityTypes())
+        {
+            var clrType = entityType.ClrType;
+            var prop = entityType.FindProperty(tenantPropertyName);
+            if (prop == null) continue;
+
+            var parameter = Expression.Parameter(clrType, "e");
+            var companyProp = Expression.Property(parameter, tenantPropertyName);
+            var currentCompany = Expression.Property(Expression.Constant(this), nameof(CurrentCompanyId));
+            var body = Expression.Equal(companyProp, currentCompany);
+            var lambda = Expression.Lambda(body, parameter);
+
+            modelBuilder.Entity(clrType).HasQueryFilter(lambda);
+        }
     }
 }

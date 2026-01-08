@@ -1,5 +1,7 @@
 using System.Security.Claims;
 
+using Infrastructure.Data;
+
 namespace Api.Middleware;
 
 /// <summary>
@@ -112,6 +114,13 @@ public class TenantMiddleware
         context.Items["UserId"] = userId;
         context.Items["UserRole"] = context.User.FindFirst(ClaimTypes.Role)?.Value;
         context.Items["CompanyName"] = context.User.FindFirst("CompanyName")?.Value;
+
+        // Propagate tenant id into DbContext for global query filters
+        var db = context.RequestServices.GetService<MarginIQDbContext>();
+        if (db != null)
+        {
+            db.CurrentCompanyId = companyId;
+        }
 
         // Validate tenant status (could be extended to check if company is active)
         await ValidateTenantStatus(companyId, userId);
